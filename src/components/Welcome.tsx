@@ -29,7 +29,7 @@ export const Welcome = () => {
         <img
           src={rsbuildLogo}
           className="pointer-events-none h-[256px] w-[256px]"
-          alt="Vite logo"
+          alt="Rsbuild logo"
         />
       </a>
       <h1 className="text-3xl font-bold text-primary">
