@@ -6,7 +6,7 @@
 
 ## Env Variables
 
-- Variables prefixed with `PUBLIC_` are [exposed](https://rsbuild.dev/zh/guide/advanced/env-vars) to Vite-processed code
+- Variables prefixed with `PUBLIC_` are [exposed](https://rsbuild.dev/zh/guide/advanced/env-vars) to client code
 
 ```sh
 # Title of the Website
