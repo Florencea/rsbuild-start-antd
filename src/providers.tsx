@@ -2,6 +2,7 @@ import { StyleProvider } from "@ant-design/cssinjs";
 import { App, ConfigProvider } from "antd";
 import zhTW from "antd/es/locale/zh_TW";
 import "dayjs/locale/zh-TW";
+import { useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import { theme } from "./theme";
 
@@ -11,6 +12,9 @@ interface Props {
 }
 
 export const Providers = ({ container, children }: Props) => {
+  useEffect(() => {
+    document.documentElement.lang = "zh-Hant-TW";
+  });
   return (
     <ConfigProvider
       getPopupContainer={() => container}

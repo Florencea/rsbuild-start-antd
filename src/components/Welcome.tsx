@@ -10,6 +10,7 @@ import {
 } from "antd";
 import dayjs from "dayjs";
 import { useState } from "react";
+import rsbuildLogo from "../assets/rsbuild.svg";
 
 export const Welcome = () => {
   const { message } = App.useApp();
@@ -26,13 +27,13 @@ export const Welcome = () => {
     >
       <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
         <img
-          src={`/${import.meta.env.PUBLIC_FAVICON}`}
+          src={rsbuildLogo}
           className="pointer-events-none h-[256px] w-[256px]"
           alt="Vite logo"
         />
       </a>
       <h1 className="text-3xl font-bold text-primary">
-        RSBuild + React + TailwindCSS + antd
+        Rsbuild + React + TailwindCSS + antd
       </h1>
       <Descriptions bordered>
         <Descriptions.Item label="antd">
