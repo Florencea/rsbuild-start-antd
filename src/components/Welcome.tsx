@@ -25,7 +25,7 @@ export const Welcome = () => {
       align="center"
       gap="middle"
     >
-      <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+      <a href="https://rsbuild.dev/zh" target="_blank" rel="noreferrer">
         <img
           src={rsbuildLogo}
           className="pointer-events-none h-[256px] w-[256px]"
